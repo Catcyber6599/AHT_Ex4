@@ -4,84 +4,166 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Đề 4</title>
+    <title>Gymax | Homepage</title>
 
     <!-- Add CSS -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/slick.css"/>
     <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
 
     <!-- Add JS -->
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/slick.min.js"></script>
   </head>
+
+
+
   <body>
+
     <div class="wrapper">
+
       <!-- Header -->
-      <div class="header">
-        <div class="container">
-          <!-- Logo -->
-          <div class="header-logo"><img src="img/Logo.png" alt=""></div>
-          <!-- End Logo -->
-          <!-- Header Menu -->
-          <div class="header-menu">
-            <nav>
-              <ul class="navbar">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Pages</a></li>
-                <li><a href="#">Classes</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contacts</a></li>
-              </ul>
+        <header class="header" id="menu">
+            <nav class="navbar" >
+                <img class="logo" src="./img/Logo.png" alt="">
+                
+
+                <!-- Nav Links -->
+                <ul class="nav-links">
+                    <a href="#">
+                        <li>Home</li>
+                    </a>
+                    <a href="#">
+                        <li>Pages</li>
+                    </a>
+                    <a href="#">
+                        <li>Classes</li>
+                    </a>
+                    <a href="#">
+                        <li>Portfolio</li>
+                    </a>
+                    <a href="#">
+                        <li>Blog</li>
+                    </a>
+                    <a href="#"> 
+                        <li>Contacts </li>
+                    </a>
+                </ul>
+                <!-- End Nav Links -->
+
+
+                <!-- Nav Control -->
+                <ul class="control">
+                    <li class="control-items">
+                        <a href="">
+                            <i class="fas fa-search"></i>     
+                        </a>
+                    </li>
+                    <li class="line">
+                        |
+                    </li>
+                    <li class="control-items">
+                        <a href="">
+                            <i class="fas fa-shopping-basket"></i>  
+                        </a>
+                    </li>
+                    <li class="line">
+                        |
+                    </li>
+                    <li class="control-items">
+                        <a href="">
+                            <i class="fas fa-user"></i>  
+                        </a>
+                    </li>
+                </ul>
+                <!-- End Nav Control -->
+
             </nav>
-          </div>
-          <div class="header-icon">
-            <div class="item-search"><i class="fas fa-search"></i></div>
-            <div class="item-cart"><i class="fas fa-shopping-bag"></i></div>
-            <div class="item-person"><i class="fas fa-person"></i></div>
-          </div>
-        </div>
-      </div>
-      <!-- End Header -->
+        </header>
+        <!-- End Header -->
+
+
+
       <!-- Main Content -->
-      <div class="main-content">
-        <!-- Slider -->
-        <div class="slider">
-          <div class="slider-top">
+      <main class="main-content">
+
+        <!-- Banner -->
+        <div class="banner">
+          <!-- Banner 1 -->
+          <div class="banner-item">
             <img src="img/Banner_01.png" alt="">
-            <div class="slider-content">
-              <div class="row">
-                <div class="slider-content-inner">
-                  <div class="slider-title">Dumbbells Shop</div>
-                  <div class="slider-name"> Best body fitness</div>
-                  <div class="slider-summary">Lorem Ipsum is simply dummy text of the printing and typesetting insdustry.
-                  <br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when unknown printer.</div>
-                  <div class="slide-bnt"><button type="submit">Shop Now</button></div>
-                </div>
-              </div>
-            </div>
           </div>
+
+
+           
+            <div class="banner-content">
+                <h1> Dumbbells Shop</h1>
+                <h2>Best body fitness</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</p>
+                <button> shop now </button>
+            </div>
+          
+            
         </div>
         <!-- End Slider -->
-        <!-- Container -->
-        <div class="container"></div>
-        <!-- End Container -->
-        <!-- BreadCrumb -->
-        <div class="breadcrumb"></div>
-        <!-- End BreadCrumb -->
-        <!-- Columns -->
-        <div class="columns">
-          <!-- Page Main -->
-          <div class="page-main"></div>
-          <!-- End Page Main -->
+
+
+        <div class="container">
+            <div class="row">
+                <div class="intro-box-1">
+                    <img src="img/Banner_02.png" alt="">
+                </div>
+                <div class="intro-box-2">
+                    <img src="img/icon_01.png" alt="">
+                </div>
+                <div class="intro-box-3">
+                    <img src="img/Banner_03.png" alt="">
+                </div>
+                <div class="intro-box-4">
+                    <img src="img/icon_02.png" alt="">
+                </div>
+                <div class="intro-box-5">
+                    <img src="img/Banner_04.png" alt="">
+                </div>
+                <div class="intro-box-6">
+                    <img src="img/icon_03.png" alt="">
+                </div>
+            </div>
         </div>
-        <!-- End Columns -->
-      </div>
-      <!-- End Main Content -->
-      <!-- Footer -->
-      <footer class="footer"></footer>
+
+    </main>
+    <!-- End Main Content -->
+
+
+        <!-- Footer -->
+        <footer class="footer">
+
+
+          <!-- Footer Info -->
+          <div class="footer-info">
+
+          </div>
+          <!-- End Footer Info -->
+
+
+          <!-- Footer Links -->
+          <div class="footer-links">
+
+          </div>
+          <!-- End Footer Links -->
+
+
+          <!-- Copyright -->
+          <div class="copyright">
+
+          </div>
+          <!-- End Copyright -->
+
+
+      </footer>
       <!-- End Footer -->
+  </div>
     </div>
   </body>
 </html>
