@@ -34,6 +34,56 @@
         }
     }
 }
-.container{
+.grid-container {
+    top: 89%;
+    display: grid;
+    position: absolute;
+    text-align: center;
+    grid-template-columns: 390px 390px 390px;
+    background-color: @text-white-color;
+    margin-left: 10.5%;
     
-}
+    .intro-box {
+      height: 250px;
+      text-align: center;
+      object-fit: cover;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    &-strength img {
+        width:10% ;
+        padding: 30px 0 15px 0;
+    }
+    &-dumbbells img {
+        width:17% ;
+        padding: 30px 0 15px 0;
+    }
+    &-power img {
+        width:10% ;
+        padding: 30px 0 15px 0;
+    }
+      &-content {
+        b{
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+
+        p{
+            font-size: 14px;
+            display: inline-block;
+            width: 290px;
+            margin-top: 20px;
+            line-height: 27px;
+            color: @text-bolder-gray-color;
+        }
+      }
+      &-dumbbells{
+        box-shadow: -3px -1px 6px -1px rgb(187 187 187);
+      }
+      &-power{
+        box-shadow: 5px 4px 5px -4px rgb(187 187 187);
+      }
+
+    }
+  }
