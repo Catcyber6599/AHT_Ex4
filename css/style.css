@@ -253,30 +253,26 @@ h1 {
   grid-gap: 30px;
   grid-row-gap: 25px;
 }
-.listing .main-listing .list-item .card {
-  width: 100%;
-  height: 365px;
-}
-.listing .main-listing .list-item .card .img-product {
+.listing .main-listing .list-item .info-product {
   position: relative;
   width: 270px;
   height: 350px;
   overflow: hidden;
 }
-.listing .main-listing .list-item .card .img-product img {
-  position: absolute;
-  top: 30px;
-  left: 62px;
+.listing .main-listing .list-item .info-product img {
+  margin-top: 10px;
+  margin-left: -7px;
   object-fit: cover;
   transition: 0.5s ease-in-out;
+  width: 107%;
 }
-.listing .main-listing .list-item .card .img-product .content {
+.listing .main-listing .list-item .info-product .content {
   margin-left: 30px;
-  margin-top: 245px;
+  margin-top: 20px;
   font-size: 14px;
   line-height: 25px;
 }
-.listing .main-listing .list-item .card .img-product .product-icon {
+.listing .main-listing .list-item .info-product .product-icon {
   position: absolute;
   right: 8px;
   top: 30px;
@@ -285,7 +281,7 @@ h1 {
   transition: 0.7s, transform 0.7s;
   transform: translateX(60px);
 }
-.listing .main-listing .list-item .card .img-product .product-icon .btn-hover {
+.listing .main-listing .list-item .info-product .product-icon .btn-hover {
   height: 35px;
   width: 35px;
   text-align: center;
@@ -298,14 +294,46 @@ h1 {
   border-top-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-.listing .main-listing .list-item .card .img-product .product-icon .btn-hover:hover {
+.listing .main-listing .list-item .info-product .product-icon .btn-hover:hover {
   background-color: #FF0000;
   color: #fff;
 }
-.listing .main-listing .list-item .card:hover .img-product {
+.listing .main-listing .list-item .info-product:hover {
   border: 1px solid rgba(216, 209, 209, 0.808);
+  box-shadow: 0px 0px 1px 1px #DDDDDD;
 }
-.listing .main-listing .list-item .card:hover .product-icon {
+.listing .main-listing .list-item .info-product:hover .product-icon {
   transform: translateX(0);
+}
+.about-us {
+  width: 100%;
+  text-align: center;
+}
+.about-us h1 {
+  margin-top: 111px;
+  font-size: 36px;
+}
+.about-us img {
+  margin-top: 47px;
+  margin-bottom: -30px;
+  width: 150px;
+  clip-path: circle(29px at 47% 29%);
+}
+.about-us p {
+  color: #999999;
+  font-size: 18px;
+  width: 53%;
+  margin-left: 340px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.about-us h4 {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.about-us span {
+  font-size: 14px;
+  color: #999999;
 }
 /*# sourceMappingURL=style.css.map */
