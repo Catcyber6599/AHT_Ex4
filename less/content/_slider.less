@@ -1,89 +1,87 @@
 .banner {
-    max-height: 750px;
-    position: relative;
-    &-item{
-        img{
-            width: 100%;
-        }
-    }
-    &-content{
-        position: absolute;
-        top: 25%;
-        left: 11.05%;
-        width: 37%;
-        color: @text-white-color;
-        h1{
-            font-size: 60px;
-        }
-        h2{
-            font-size: 40px;
-            margin-bottom: 3%;
-        }
-        p{
-            font-size: 14px;
-        }
-        button{
-            background-color: unset;
-            color: @text-white-color;
-            padding: 15px 54.5px;
-            border-color: @text-white-color;
-            text-transform: uppercase;
-            font-size: 14px;
-            margin-top: 11.4%;
-
-        }
-    }
-}
-.grid-container {
-    top: 89%;
-    display: grid;
-    position: absolute;
-    text-align: center;
-    grid-template-columns: 390px 390px 390px;
-    background-color: @text-white-color;
-    margin-left: 10.5%;
-    
-    .intro-box {
-      height: 250px;
-      text-align: center;
-      object-fit: cover;
-      img{
-        width: 100%;
-        height: 100%;
-      }
-    &-strength img {
-        width:10% ;
-        padding: 30px 0 15px 0;
-    }
-    &-dumbbells img {
-        width:17% ;
-        padding: 30px 0 15px 0;
-    }
-    &-power img {
-        width:10% ;
-        padding: 30px 0 15px 0;
-    }
-      &-content {
-        b{
-            font-size: 18px;
-            text-transform: uppercase;
-        }
-
-        p{
-            font-size: 14px;
-            display: inline-block;
-            width: 290px;
-            margin-top: 20px;
-            line-height: 27px;
-            color: @text-bolder-gray-color;
-        }
-      }
-      &-dumbbells{
-        box-shadow: -3px -1px 6px -1px rgb(187 187 187);
-      }
-      &-power{
-        box-shadow: 5px 4px 5px -4px rgb(187 187 187);
-      }
-
+  max-height: 750px;
+  position: relative;
+  &-item {
+    img {
+      width: 100%;
     }
   }
+  &-content {
+    position: absolute;
+    top: 25%;
+    left: 11.05%;
+    width: 37%;
+    color: @text-white-color;
+    h1 {
+      font-size: 60px;
+    }
+    h2 {
+      font-size: 40px;
+      margin-bottom: 3%;
+    }
+    p {
+      font-size: 14px;
+    }
+    button {
+      background-color: unset;
+      color: @text-white-color;
+      padding: 15px 54.5px;
+      border-color: @text-white-color;
+      text-transform: uppercase;
+      font-size: 14px;
+      margin-top: 11.4%;
+    }
+  }
+}
+.grid-container {
+  top: 89%;
+  display: grid;
+  position: absolute;
+  text-align: center;
+  grid-template-columns: 390px 390px 390px;
+  background-color: @text-white-color;
+  margin-left: 10.5%;
+
+  .intro-box {
+    height: 250px;
+    text-align: center;
+    object-fit: cover;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    &-strength img {
+      width: 10%;
+      padding: 30px 0 15px 0;
+    }
+    &-dumbbells img {
+      width: 17%;
+      padding: 30px 0 15px 0;
+    }
+    &-power img {
+      width: 10%;
+      padding: 30px 0 15px 0;
+    }
+    &-content {
+      b {
+        font-size: 18px;
+        text-transform: uppercase;
+      }
+
+      p {
+        font-size: 14px;
+        display: inline-block;
+        width: 290px;
+        margin-top: 20px;
+        line-height: 27px;
+        color: @text-bolder-gray-color;
+      }
+    }
+    &-dumbbells {
+      box-shadow: -3px -1px 6px -1px rgb(187 187 187);
+    }
+    &-power {
+      box-shadow: 5px 4px 5px -4px rgb(187 187 187);
+    }
+  }
+}
