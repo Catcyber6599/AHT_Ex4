@@ -1,11 +1,14 @@
 .footer {
   width: 100%;
   background-color: @bg-footer;
+  overflow: hidden;
+  box-sizing: border-box;
   &-info {
     text-align: center;
     font-size: 14px;
     color: @text-boldest-gray-color;
     img {
+      display: block;
       padding: 100px 0 20px;
     }
 
@@ -19,27 +22,32 @@
     }
   }
   &-content {
+    display: flex;
     border-top: 1px solid rgba(216, 209, 209, 0.808);
-    margin: 0 160px;
-    .contact-us {
-        h4{
-            text-transform: uppercase;
-            color: @text-white-color;
-            font-size: 18px;
-            margin: 80px 0 40px;
-        }
-        li {
-            font-size: 14px;
-            color:@text-bolder-gray-color;
-            margin: 0 0 30px;
-        }
-        span {
-            margin-left: 25px;
-        }
+    margin: 0 144px 0 161px;
+    h4 {
+      text-transform: uppercase;
+      color: @text-white-color;
+      font-size: 18px;
+      margin: 80px 174px 40px 0;
     }
-    
-    
 
-
+    li {
+      font-size: 14px;
+      color: @text-bolder-gray-color;
+      margin: 0 0 30px;
+    }
+    .contact-us {
+      span {
+        margin-left: 25px;
+      }
+    }
+  }
+  .copyright p {
+    padding: 15px;
+    background-color: @bg-copyright;
+    font-size: 14px;
+    text-align: center;
+    color: @text-bolder-gray-color;
   }
 }
