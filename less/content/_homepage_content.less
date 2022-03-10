@@ -1,5 +1,6 @@
 .listing {
-  margin: 502px 145px 0 161px;
+  max-width: 1170px;
+  margin: 60px auto;
 
   .name-content {
     font-size: 18px;
@@ -19,7 +20,7 @@
   }
   ul li {
     position: relative;
-    padding: 30px 20px 20px 20px;
+    padding: 29px 16px 14px 18px;
     cursor: pointer;
   }
   ul li::after {
@@ -64,44 +65,38 @@
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(262px, 1fr));
       grid-gap: 30px;
-      grid-row-gap: 25px;
+      grid-row-gap: 48px;
 
       .info-product {
         position: relative;
-        width: 270px;
-        height: 350px;
+        padding-bottom: 43px;
         overflow: hidden;
 
         img {
-          display: block;
-          margin-top: 10px;
-          margin-left: -7px;
           object-fit: cover;
           transition: 0.5s ease-in-out;
-          width: 107%;
         }
         .content {
-          margin-left: 30px;
-          margin-top: 20px;
           font-size: 14px;
           line-height: 25px;
+          margin: 17px 0 -18px 29px;
         }
         .product-icon {
           position: absolute;
-          right: 8px;
-          top: 30px;
+          right: 19px;
+          top: 18px;
           display: grid;
           cursor: pointer;
           transition: 0.7s, transform 0.7s;
           transform: translateX(60px);
 
           .btn-hover {
-            height: 35px;
-            width: 35px;
+            height: 33px;
+            width: 33px;
             text-align: center;
-            line-height: 36px;
+            line-height: 39px;
             border: 1px solid;
-            margin-bottom: 17px;
+            margin-bottom: 14px;
             border-color: @border-color;
             color: @text-bolder-gray-color;
             background-color: @bg-color;
@@ -127,34 +122,34 @@
   }
 }
 .about-us {
-  width: 52%;
-  margin: 0 358px 30px;
-  
-  
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 34px;
+
   h1 {
-    margin: 111px 0 0 140px;
+    text-align: center;
     font-size: 36px;
   }
   img {
-    display: block;
-    margin: 47px 0 -30px 340px;
-    width: 150px;
-    clip-path: circle(29px at 47% 29%);
+    margin: 44px 0 -53px 266px;
+    width: 220px;
+    clip-path: circle(40px at 48% 27%);
   }
   p {
     color: @text-boldest-gray-color;
-    font-size: 18px;
-    margin: 0 -12px 42px -8px;
+    font-size: 17px;
+    margin: 2px -6px 25px -8px;
     text-align: center;
     line-height: 30px;
   }
   h4 {
     text-transform: uppercase;
     font-size: 18px;
-    margin: 0 0 15px 386px;
+    text-align: center;
   }
   span {
-    margin: 0 0 0 359px;
+    display: block;
+    text-align: center;
     font-size: 14px;
     color: @text-boldest-gray-color;
   }
@@ -170,7 +165,7 @@
   .slick-dots {
     position: absolute;
     bottom: -58px;
-    left: 54%;
+    left: 393px;
     transform: translate(-50%, 0);
     display: flex;
     align-items: center;
@@ -189,6 +184,14 @@
     outline: none;
     transition: all 0.2s linear;
   }
+  .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 21px;
+    padding: 0;
+    margin: 0px 5px 0 -5px;
+  }
 
   .slick-active button {
     background-color: @text-red-color;
@@ -199,11 +202,15 @@
     display: none;
   }
 }
-.branch {
+.branch-image {
   border-top: 1px solid rgba(216, 209, 209, 0.808);
-  margin: 145px 145px 0 160px;
-  text-align: center;
+  margin: 8% auto 0%;
+  max-width: 1170px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 8% auto 0%;
+  justify-content: space-between;
   img {
-    padding: 40px 40px 40px 20px;
+    padding: 32px 40px 40px 20px;
   }
 }

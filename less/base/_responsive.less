@@ -1,29 +1,213 @@
-@media all and (max-width: 1170px) {
-  .header {
-    width: 129vw;
-
-    .navbar img {
-      width: 160px;
-
-      &-item {
-        margin: 0px 8px;
-      }
+@media all and (max-width: 1644px) {
+  .wrapper .grid-intro-box {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 16%;
+  }
+  .about-us img {
+    clip-path: circle(40px at 48% 27%);
+    margin: 0 auto;
+    display: block;
+    margin-top: 43px;
+  }
+  .about-us .slick-dots {
+    bottom: -15%;
+    left: 52%;
+    transform: translate(-50%, 0);
+  }
+}
+@media all and (max-width: 1400px) {
+  .wrapper .banner-content {
+    padding-top: 16%;
+  }
+  .wrapper {
+    .grid-intro-box {
+      padding-top: 15%;
     }
   }
-  .banner {
-    &-content {
-      h1 {
-        font-size: 50px;
-      }
-      h2 {
-        font-size: 40px;
-      }
-      p {
-        font-size: 11px;
-      }
-      button {
-        font-size: 10px;
-      }
-    }
+  .footer-info p {
+    width: 38%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    padding: 0;
+  }
+}
+@media all and (max-width: 1176px) {
+  .header .navbar {
+    display: none;
+  }
+
+  .header .navbar-mobile {
+    display: block;
+  }
+
+  .wrapper .banner-content {
+    width: 48%;
+    color: @text-white-color;
+    margin-bottom: -1%;
+    padding-top: 200px;
+  }
+  .about-us p {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .footer-content h4 {
+    margin-top: 80px;
+  }
+  .footer-content .contact-us {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .footer-content .information {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+@media all and (max-width: 1130px) {
+  .branch-image .branch-1 {
+    width: 33.33%;
+    text-align: center;
+  }
+  .branch-image .branch-2 {
+    width: 33.33%;
+    text-align: center;
+  }
+  .branch-image .branch-3 {
+    width: 33.33%;
+    text-align: center;
+  }
+  .branch-image .branch-4 {
+    width: 33.33%;
+    text-align: center;
+  }
+  .branch-image .branch-5 {
+    width: 33.33%;
+    text-align: center;
+  }
+  .branch-image .branch-6 {
+    width: 33.33%;
+    text-align: center;
+  }
+}
+@media all and (max-width: 1080px) {
+  .wrapper .banner-content {
+    padding-top: 15%;
+  }
+  .wrapper .banner-content h1 {
+    font-size: 50px;
+  }
+  .wrapper .banner-content h2 {
+    font-size: 40px;
+  }
+  .wrapper .grid-intro-box .collumn-intro-box .intro-box-content-strength {
+    margin: 0 auto;
+  }
+  .wrapper .grid-intro-box .collumn-intro-box .intro-box-dumbbells p {
+    margin: auto;
+    margin-top: 20px;
+  }
+  .wrapper .grid-intro-box .collumn-intro-box .intro-box-content-power p {
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+@media all and (max-width: 1030px) {
+  .wrapper .banner-content h1 {
+    font-size: 50px;
+  }
+  .wrapper .banner-content h2 {
+    font-size: 40px;
+  }
+}
+@media all and (max-width: 1024px) {
+  .wrapper .grid-intro-box {
+    padding-top: 30px;
+  }
+}
+@media all and (max-width: 1015px) {
+  .wrapper .banner-content button {
+    margin-top: 8%;
+  }
+}
+@media all and (max-width: 987px) {
+  .wrapper .banner-content p {
+    font-size: 12px;
+  }
+}
+@media all and (max-width: 960px) {
+  .wrapper .banner-content button {
+    margin-top: 5%;
+  }
+}
+@media all and (max-width: 920px) {
+  .wrapper .banner-content h1 {
+    font-size: 40px;
+  }
+  .wrapper .banner-content h2 {
+    font-size: 30px;
+  }
+}
+@media all and (max-width: 780px) {
+  .wrapper .grid-intro-box .collumn-intro-box .intro-box-content-dumbbells {
+    margin: 0 auto;
+    padding: 0;
+  }
+  .wrapper .grid-intro-box .collumn-intro-box .intro-box-dumbbells img {
+    padding: 34px 0 0px 0;
+  }
+  .wrapper .grid-intro-box .collumn-intro-box .intro-box-content-power {
+    margin: 0 auto;
+    padding-bottom: 5px;
+  }
+  .wrapper .grid-intro-box .collumn-intro-box .intro-box-content-power p {
+    margin: 0 auto;
+    margin-top: 2px;
+  }
+  .wrapper .grid-intro-box .collumn-intro-box .intro-box-power img {
+    padding: 34px 0 0px 0;
+  }
+  .wrapper .grid-intro-box .collumn-intro-box .intro-box-content-strength {
+    padding: 0;
+  }
+}
+@media all and (max-width: 680px) {
+  .wrapper .banner-content h1 {
+    font-size: 30px;
+  }
+  .wrapper .banner-content h2 {
+    font-size: 20px;
+  }
+  .wrapper .banner-content p {
+    font-size: 10px;
+  }
+  .wrapper .banner-content button {
+    margin-top: 2%;
+  }
+}
+@media all and (max-width: 592px) {
+  .wrapper .banner-content h2 {
+    margin-bottom: 5px;
+  }
+  .wrapper .banner-content button {
+    margin-top: 3%;
+  }
+  .wrapper .grid-intro-box .collumn-intro-box .intro-box-power img {
+    padding: 3px 0 0px 0;
+  }
+  .footer-content .contact-us {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .footer-content .my-account {
+    margin: 0 auto;
+  }
+  .footer-content .information {
+    width: 54%;
+    margin: 0 auto;
+  }
+  .footer-content .quick-link {
+    margin: 0 auto;
   }
 }

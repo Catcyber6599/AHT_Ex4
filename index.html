@@ -28,63 +28,133 @@
 
     <!-- Header -->
     <header class="header" id="menu">
-      <nav class="navbar">
-        <a href="#">
-          <img class="logo" src="./img/Logo.png" alt="">
-        </a>
+      <div class="cotainer">
+        <!-- Nav PC -->
+        <nav class="navbar">
+          <a href="#">
+            <img class="logo" src="./img/Logo.png" alt="">
+          </a>
 
 
-        <!-- Nav Links -->
-        <ul class="nav-links">
-          <a href="#">
-            <li>Home</li>
-          </a>
-          <a href="#">
-            <li>Pages</li>
-          </a>
-          <a href="#">
-            <li>Classes</li>
-          </a>
-          <a href="#">
-            <li>Portfolio</li>
-          </a>
-          <a href="#">
-            <li>Blog</li>
-          </a>
-          <a href="#">
-            <li>Contacts </li>
-          </a>
-        </ul>
-        <!-- End Nav Links -->
-
-
-        <!-- Nav Control -->
-        <ul class="control">
-          <li class="control-items">
-            <a href="">
-              <i class="fas fa-search"></i>
+          <!-- Nav Links -->
+          <ul class="nav-links">
+            <a href="#">
+              <li>Home</li>
             </a>
-          </li>
-          <li class="line">
-            |
-          </li>
-          <li class="control-items">
-            <a href="">
-              <i class="fas fa-shopping-basket"></i>
+            <a href="#">
+              <li>Pages</li>
             </a>
-          </li>
-          <li class="line">
-            |
-          </li>
-          <li class="control-items">
-            <a href="">
-              <i class="fas fa-user"></i>
+            <a href="#">
+              <li>Classes</li>
             </a>
-          </li>
-        </ul>
-        <!-- End Nav Control -->
+            <a href="#">
+              <li>Portfolio</li>
+            </a>
+            <a href="#">
+              <li>Blog</li>
+            </a>
+            <a href="#">
+              <li>Contacts </li>
+            </a>
+          </ul>
+          <!-- End Nav Links -->
+
+
+          <!-- Nav Control -->
+          <ul class="control">
+            <li class="control-items">
+              <a href="">
+                <i class="fas fa-search"></i>
+              </a>
+            </li>
+            <li class="line">
+              |
+            </li>
+            <li class="control-items">
+              <a href="">
+                <i class="fas fa-shopping-basket"></i>
+              </a>
+            </li>
+            <li class="line">
+              |
+            </li>
+            <li class="control-items">
+              <a href="">
+                <i class="fas fa-user"></i>
+              </a>
+            </li>
+          </ul>
+          <!-- End Nav Control -->
+
+        </nav>
+        <!-- End Nav PC -->
+      </div>
+
+      <!-- Nav Mobile -->
+      <nav class="navbar-mobile">
+        <div class="header-main">
+          <a class="Header_img-logo" href="#">
+            <img class="logo" src="./img/Logo.png" alt="">
+          </a>
+          <div class="btn" id="btn">
+            <div id='top'></div>
+            <div id='middle'></div>
+            <div id='bottom'></div>
+          </div>
+
+          <div class="box" id="box">
+            <div class="items" id="items">
+              <!-- Nav Links -->
+              <ul>
+                <li><a href="#" class="item" id="item">Home</a></li>
+                <li><a href="#" class="item" id="item">Pages</a></li>
+                <li><a href="#" class="item" id="item">Classes</a></li>
+                <li><a href="#" class="item" id="item">Portfolio</a></li>
+                <li><a href="#" class="item" id="item">Blog</a></li>
+                <li><a href="#" class="item" id="item">Contacts</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- End Nav Links -->
+
+
+          <!-- Nav Control -->
+          <ul class="control">
+            <li class="control-items">
+              <a href="">
+                <i class="fas fa-shopping-basket"></i>
+              </a>
+            </li>
+            <li class="line">
+              |
+            </li>
+            <li class="control-items">
+              <a href="">
+                <i class="fas fa-user"></i>
+              </a>
+            </li>
+          </ul>
+          <!-- End Nav Control -->
+
+
+        </div>
+
+        <div class="key-search">
+          <form class="search-form" action="">
+            <div class="input-group">
+              <input type="search" placeholder="Enter your key?" class="input-search">
+              <div class="input-group-append">
+                <button id="button-addon1" type="submit" class="btn-search">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+
 
       </nav>
+      <!-- End Nav Mobile -->
     </header>
     <!-- End Header -->
 
@@ -92,22 +162,24 @@
 
     <!-- Main Content -->
     <main class="main-content">
-
       <!-- Banner -->
       <div class="banner">
+        <div class="container">
+          <div class="banner-content">
+            <h1> Dumbbells Shop</h1>
+            <h2>Best body fitness</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an unknown printer</p>
+            <button> shop now </button>
+          </div>
+        </div>
 
-        <div class="banner-item">
+        <!-- <div class="banner-item">
           <img src="img/Banner_01.png" alt="">
-        </div>
+        </div> -->
 
 
-        <div class="banner-content">
-          <h1> Dumbbells Shop</h1>
-          <h2>Best body fitness</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer</p>
-          <button> shop now </button>
-        </div>
+
 
 
       </div>
@@ -115,48 +187,58 @@
 
 
       <!-- Grid Container -->
-      <div class="grid-container">
-        <div class="intro-box">
-          <img src="./img/Banner_02.png" alt="">
-        </div>
-        <div class="intro-box-strength">
-          <div class="intro-box-icon">
-            <img src="./img/icon_01.png" alt="">
+      <div class="container">
+        <div class="grid-intro-box">
+          <div class="collumn-intro-box">
+            <div class="intro-box">
+              <img src="./img/Banner_02.png" alt="">
+            </div>
+            <div class="intro-box-dumbbells">
+              <div class="intro-box-icon">
+                <img src="./img/icon_02.png" alt="">
+              </div>
+              <div class="intro-box-content-dumbbells">
+                <b>Dumbbells</b><br>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="intro-box-content">
-            <b>Strength</b><br>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            </p>
+          <div class="collumn-intro-box">
+            <div class="intro-box-strength">
+              <div class="intro-box-icon">
+                <img src="./img/icon_01.png" alt="">
+              </div>
+              <div class="intro-box-content-strength">
+                <b>Strength</b><br>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+              </div>
+            </div>
+            <div class="intro-box">
+              <img src="./img/Banner_04.png" alt="">
+            </div>
           </div>
-        </div>
-        <div class="intro-box">
-          <img src="./img/Banner_03.png" alt="">
-        </div>
-        <div class="intro-box-dumbbells">
-          <div class="intro-box-icon">
-            <img src="./img/icon_02.png" alt="">
+          <div class="collumn-intro-box">
+            <div class="intro-box">
+              <img src="./img/Banner_03.png" alt="">
+            </div>
+            <div class="intro-box-power">
+              <div class="intro-box-icon">
+                <img src="./img/icon_03.png" alt="">
+              </div>
+              <div class="intro-box-content-power">
+                <b>Power Rack & Cages</b><br>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+              </div>
+            </div>
+
           </div>
-          <div class="intro-box-content">
-            <b>Dumbbells</b><br>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            </p>
-          </div>
-        </div>
-        <div class="intro-box">
-          <img src="./img/Banner_04.png" alt="">
-        </div>
-        <div class="intro-box-power">
-          <div class="intro-box-icon">
-            <img src="./img/icon_03.png" alt="">
-          </div>
-          <div class="intro-box-content">
-            <b>Power Rack & Cages</b><br>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            </p>
-          </div>
+
         </div>
       </div>
       <!-- End Grid Container -->
@@ -170,8 +252,8 @@
           <nav class="site-nav">
             <ul>
               <li class="active"><a href="#">Top Sellers</a></li>
-              <li><a href="#">Featured</a></li>
-              <li><a href="#">Most Reviews</a></li>
+              <li><a href="#" class="nav-mobile__link">Featured</a></li>
+              <li><a href="#" class="nav-mobile__link">Most Reviews</a></li>
             </ul>
           </nav>
         </div>
@@ -308,137 +390,149 @@
 
     <!-- About US -->
     <div class="about-us">
-      <h1>See What They Said About Us</h1>
-      <div class="detail-content">
-        <div class="detail-content-slick">
-          <img src="img/image-person.png" alt="">
-          <p>“Good services. I bought a bicycle with a wrong but they accepted free return for me and exchange a new
-            product for me.</p>
-          <h4>Lina</h4>
-          <span>Happy clients</span>
-        </div>
+      <div class="container">
+        <h1>See What They Said About Us</h1>
+        <div class="detail-content">
+          <div class="detail-content-slick">
+            <img src="img/image-person.png" alt="">
+            <p>“Good services. I bought a bicycle with a wrong but they accepted free return for me and exchange a new
+              product for me.</p>
+            <h4>Lina</h4>
+            <span>Happy clients</span>
+          </div>
 
-        <div class="detail-content-slick">
-          <img src="img/image-person.png" alt="">
-          <p>“Good services. I bought a bicycle with a wrong but they accepted free return for me and exchange a new
-            product for me.</p>
-          <h4>Lina</h4>
-          <span>Happy clients</span>
-        </div>
+          <div class="detail-content-slick">
+            <img src="img/image-person.png" alt="">
+            <p>“Good services. I bought a bicycle with a wrong but they accepted free return for me and exchange a new
+              product for me.</p>
+            <h4>Lina</h4>
+            <span>Happy clients</span>
+          </div>
 
-        <div class="detail-content-slick">
-          <img src="img/image-person.png" alt="">
-          <p>“Good services. I bought a bicycle with a wrong but they accepted free return for me and exchange a new
-            product for me.</p>
-          <h4>Lina</h4>
-          <span>Happy clients</span>
-        </div>
+          <div class="detail-content-slick">
+            <img src="img/image-person.png" alt="">
+            <p>“Good services. I bought a bicycle with a wrong but they accepted free return for me and exchange a new
+              product for me.</p>
+            <h4>Lina</h4>
+            <span>Happy clients</span>
+          </div>
 
+        </div>
       </div>
+
     </div>
 
-     <!-- Branch -->
-     <div class="branch">
-      <img src="img/Brand_1.png" alt="">
-      <img src="img/Brand_2.png" alt="">
-      <img src="img/Brand_6.png" alt="">
-      <img src="img/Brand_5.png" alt="">
-      <img src="img/Brand_3.png" alt="">
-      <img src="img/Brand_4.png" alt="">
+    <!-- Branch -->
+    <div class="branch-image">
+      <div class="branch-1"><img src="img/Brand_1.png" alt=""></div>
+      <div class="branch-2"> <img src="img/Brand_2.png" alt=""></div>
+      <div class="branch-3"><img src="img/Brand_6.png" alt=""></div>
+      <div class="branch-4"><img src="img/Brand_5.png" alt=""></div>
+      <div class="branch-5"><img src="img/Brand_3.png" alt=""></div>
+      <div class="branch-6"><img src="img/Brand_4.png" alt=""></div>
     </div>
-    <!-- End Branch -->
+  </div>
 
-    <!-- End Wrapper -->
+  <!-- End Branch -->
 
-    <!-- Footer -->
-    <footer class="footer">
+  <!-- End Wrapper -->
 
-      <!-- Footer Info -->
-      <div class="footer-info">
-        <img src="img/Logo.png" alt="">
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
-        <div class="footer-icon-social">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-google-plus-g"></i>
-          <i class="fab fa-youtube"></i>
+  <!-- Footer -->
+  <footer class="footer">
+
+    <!-- Footer Info -->
+    <div class="footer-info">
+      <img src="img/Logo.png" alt="">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
+      <div class="footer-icon-social">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-google-plus-g"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+    </div>
+    <!-- End Footer Info -->
+
+
+    <!-- Footer Contents -->
+    <div class="footer-content">
+      <div class="container">
+        <div class="row">
+          <div class="contact-us">
+            <h4>Contact Us</h4>
+            <ul>
+              <li>
+                <i class="fas fa-map-marker-alt"></i>
+                <span class="info">200 Lincoln Ave, Sanilas, CA 93901</span>
+              </li>
+
+              <li>
+                <i class="fas fa-phone info-icon"></i>
+                <span>023 32423 223</span>
+              </li>
+
+              <li>
+                <i class="far fa-envelope info-icon"></i>
+                <span>gymax@example.com</span>
+              </li>
+
+              <li>
+                <i class="fas fa-clock"></i>
+                <span>9:00-20:00 All day</span>
+              </li>
+
+            </ul>
+          </div>
+          <div class="my-account">
+            <h4>My Account</h4>
+            <ul>
+              <li>My account</li>
+              <li>Check out</li>
+              <li>Register</li>
+              <li>Login</li>
+            </ul>
+          </div>
+          <div class="information">
+            <h4>Information</h4>
+            <ul>
+              <li>About us</li>
+              <li>Contact us</li>
+              <li>Terms of user</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </div>
+          <div class="quick-link">
+            <h4>Quick Link</h4>
+            <ul>
+              <li>New user</li>
+              <li>Help center</li>
+              <li>Report spam</li>
+              <li>FAQs</li>
+            </ul>
+          </div>
         </div>
       </div>
-      <!-- End Footer Info -->
+
+    </div>
+    <!-- End Footer Contents -->
 
 
-      <!-- Footer Contents -->
-      <div class="footer-content">
-        <div class="contact-us">
-          <h4>Contact Us</h4>
-          <ul>
-            <li>
-              <i class="fas fa-map-marker-alt"></i>
-              <span class="info">200 Lincoln Ave, Sanilas, CA 93901</span>
-            </li>
-
-            <li>
-              <i class="fas fa-phone-alt info-icon"></i>
-              <span>023 32423 223</span>
-            </li>
-
-            <li>
-              <i class="far fa-envelope info-icon"></i>
-              <span>gymax@example.com</span>
-            </li>
-
-            <li>
-              <i class="fas fa-clock"></i>
-              <span>9:00-20:00 All day</span>
-            </li>
-
-          </ul>
-        </div>
-        <div class="my-account">
-          <h4>My Account</h4>
-          <ul>
-            <li>My account</li>
-            <li>Check out</li>
-            <li>Register</li>
-            <li>Login</li>
-          </ul>
-        </div>
-        <div class="infomation">
-          <h4>Infomation</h4>
-          <ul>
-            <li>About us</li>
-            <li>Contact us</li>
-            <li>Terms of user</li>
-            <li>Privacy Policy</li>
-          </ul>
-        </div>
-        <div class="quick-link">
-          <h4>Quick Link</h4>
-          <ul>
-            <li>New user</li>
-            <li>Help center</li>
-            <li>Report spam</li>
-            <li>FAQs</li>
-          </ul>
-        </div>
-      </div>
-      <!-- End Footer Contents -->
+    <!-- Copyright -->
+    <div class="copyright">
+      <p>Copyright © 2019 Gymax - Design by ArrowHitech - All Rights Reserved
+      </p>
+    </div>
+    <!-- End Copyright -->
 
 
-      <!-- Copyright -->
-      <div class="copyright">
-        <p>Copyright © 2019 Gymax - Design by ArrowHitech - All Rights Reserved
-        </p>
-      </div>
-      <!-- End Copyright -->
-
-
-    </footer>
-    <!-- End Footer -->
+  </footer>
+  <!-- End Footer -->
 
   <!-- Jquery -->
   <script src="./js/function.js"></script>
   <script src="./js/script.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
